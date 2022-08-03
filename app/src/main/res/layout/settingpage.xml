@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:background="@drawable/bg_tree">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="61dp"
+        android:layout_height="36dp"
+
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="false"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="153dp"
+        android:layout_marginLeft="299dp"
+        android:layout_marginTop="86dp"
+        android:layout_marginRight="517dp"
+        android:layout_marginBottom="185dp"
+        android:background="@drawable/buttonborder"
+        android:gravity="center"
+        android:text="Volume: " />
+
+    <SeekBar
+        android:id="@+id/seekBar2"
+        android:layout_width="344dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="false"
+        android:layout_marginLeft="230dp"
+        android:layout_marginTop="94dp" />
+
+    <Button
+        android:id="@+id/btn_back_settings"
+        android:layout_width="89dp"
+        android:layout_height="41dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="349dp"
+        android:layout_marginLeft="349dp"
+        android:layout_marginTop="317dp"
+        android:background="@drawable/buttonborder"
+        android:text="Back" />
+
+</RelativeLayout>
